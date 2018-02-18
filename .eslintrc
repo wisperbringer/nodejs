@@ -3,7 +3,7 @@
     "rules": {
         // enable additional rules
         "indent": ["error", 4],
-        "linebreak-style": ["error", "unix"],
+        "linebreak-style": ["error", "windows"],
         "quotes": ["error", "double"],
         "semi": ["error", "always"],
 
@@ -13,10 +13,9 @@
 
         // disable rules from base configurations
         "no-console": "off"
-    }, {
+    },
     "env": {
         "es6": true,
         "node": true
-    }
     }
 }
