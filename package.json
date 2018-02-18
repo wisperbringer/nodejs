@@ -1,0 +1,24 @@
+{
+  "name": "eslint_test_1",
+  "version": "1.0.0",
+  "description": "try do this",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-google": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisperbringer/nodejs.git"
+  },
+  "author": "musia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisperbringer/nodejs/issues"
+  },
+  "homepage": "https://github.com/wisperbringer/nodejs#readme"
+}

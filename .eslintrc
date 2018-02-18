@@ -1,6 +1,10 @@
 {
     "extends": "google",
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
     "rules": {
-      
+      "eol-last": ["error", "windows"],
+      "linebreak-style": ["error", "windows"]
       }
 }
