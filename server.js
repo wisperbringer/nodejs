@@ -1,4 +1,4 @@
-var User = require("./user").User;
+var User = require("./user");
 
 function run() {
     var vasya = new User("Vasya");
