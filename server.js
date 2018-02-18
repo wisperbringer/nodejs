@@ -1,12 +1,14 @@
-function User(name) {
-    this.name = name;
+var User = require("./user").User;
+
+function run() {
+    var vasya = new User("Vasya");
+    var dima = new User("Dima");
+
+    vasya.hello(dima);
 }
 
-User.prototype.hello = function (who) {
-    console.log("Hello, " + who.name);
-};
-
-var vasya = new User("Vasya");
-var dima = new User("Dima");
-
-vasya.hello(dima);
+if(module.parent){
+    exports.run = run;
+}else {
+    run();
+}
