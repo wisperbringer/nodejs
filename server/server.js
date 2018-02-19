@@ -1,5 +1,5 @@
 var http = require("http");
-var log = require("winston");
+var log = require("./log")(module);
 
 var server = new http.Server();
 

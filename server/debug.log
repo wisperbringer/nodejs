@@ -1,0 +1,6 @@
+{"level":"info","message":"Get request GET /echo?message=Hello","timestamp":"2018-02-19T21:12:51.076Z"}
+{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":"?message=Hello","query":{"message":"Hello"},"pathname":"/echo","path":"/echo?message=Hello","href":"/echo?message=Hello","level":"info","message":"","timestamp":"2018-02-19T21:12:51.080Z"}
+{"level":"debug","message":"Echo: Hello","timestamp":"2018-02-19T21:12:51.080Z"}
+{"level":"info","message":"Get request GET /echo?message=Hello","timestamp":"2018-02-19T21:12:53.973Z"}
+{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":"?message=Hello","query":{"message":"Hello"},"pathname":"/echo","path":"/echo?message=Hello","href":"/echo?message=Hello","level":"info","message":"","timestamp":"2018-02-19T21:12:53.974Z"}
+{"level":"debug","message":"Echo: Hello","timestamp":"2018-02-19T21:12:53.974Z"}
