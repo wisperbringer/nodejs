@@ -6,7 +6,8 @@ var server = new http.Server(function (req, res) {
     var urlParse = url.parse(req.url, true);
     console.log(urlParse);
     if(urlParse.pathname == "/echo" && urlParse.query.message){
-         res.end(urlParse.query.message);
+        res.setHeader("Cache-controle", "no cache");
+        res.end(urlParse.query.message);
     }else{
         res.statusCode = 404;
         res.end("Page not found");
