@@ -1,7 +1,7 @@
 var http = require("http");
 var fs = require("fs");
 
-http.createServer(function (req, res) {
+var server = http.Server(function (req, res) {
     var info;
     if(req.url == "/"){
         fs.readFile("index.html", function (err, info) {
@@ -14,4 +14,16 @@ http.createServer(function (req, res) {
             res.end(info);
         })
     }
-}).listen(3000);
+});
+
+server.listen(3000);
+
+setTimeout(function () {
+    server.close();
+}, 2500);
+
+var timer = setInterval(function () {
+    console.log(process.memoryUsage());
+}, 1000);
+
+timer.unref();
